@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contener{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* nav start */
+nav{
+    background-color: rgba(0, 0, 0, 1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.nav2{
+    gap: 30px;
+    display: flex;
+}
+.btn{
+    background-color: rgba(255, 113, 67, 1);
+    color: #fff;
+    border-color: rgb(255, 106, 0);
+    border-radius: 5px;
+}
+nav button:hover{
+    background-color: chartreuse;
+    color: red;
+    border-color: red;
+}
+/* nav end */
+/* welcom start */
+.welcom{
+    display: flex;
+    background-color:  rgba(255, 113, 67, 1);
+    align-items: center;
+    color: #fff;
+    justify-content: space-around;
+}
+.welcom2{
+    font-size: 20px;
+    gap: 40px; 
+}
+.welcom3{
+    padding-bottom: 300px;font-size: x-large;
+}
+.but{
+    background-color: black;
+    color: #fff;
+    border-color: black;
+    width: 150px;
+    height: 30px;
+    border-radius: 8px;
+}
+.bet{
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    border-color: rgb(255, 255, 255);
+    width: 150px;
+    height: 30px;
+    border-radius: 8px; 
+}
+.welcom .but:hover{
+    background-color: #fff;
+    color: #000;
+    border-color: chartreuse;
+}
+.welcom .bet:hover{
+    background-color: #000000;
+    color: #ffffff;
+    border-color: rgb(255, 0, 0);
+}
+.spikeen{
+    display: flex;
+    align-items: center;
+}
+.wizz{
+    width: 10px;
+    height: 10px;
+    background-color: #000000;
+}
+.wizzz{
+    width: 10px;
+    height: 10px;
+    background-color: #665757;
+}
+.bati{
+    display: flex;
+    gap: 20px;
+    padding-left: 100px;
+
+}
+.welkom2{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.welkom3{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    gap: 40px;
+    font-size: 20px;
+    padding-left: 50px;
+
+}
+.senter{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-left: 60px;
+    gap: 40px;
+
+}
+.ledingtop{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+.ledingtopi{
+    display: flex;
+    padding-left: 60px;
+}
+.futer{
+    background-color: black;
+}
